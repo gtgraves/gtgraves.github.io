@@ -8,7 +8,7 @@ Thanks for visiting my portfolio. Feel free to use the form below to contact me 
 
 <form action="https://getsimpleform.com/messages?form_api_token=b888a86dba0cc62dae347e47a3b587f0" method="post">
   <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-  <input type='hidden' name='redirect_to' value='http://gtgraves.github.io/thank-you/' /> <br>
+  <input type='hidden' name='redirect_to' value='http://www.gtgraves.net/thank-you/' /> <br>
   <input type='text' name='name' placeholder='Your Name' /> <br>
   <br>
   <input type='email' name='email' placeholder='Your E-mail' /> <br>
