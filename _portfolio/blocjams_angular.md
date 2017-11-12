@@ -21,37 +21,47 @@ This was my second project in JavaScript and was largely derived from my initial
 The album view of the original version of this application (using vanilla JavaScript) had a lot of the data populated manually. Most of the testing was done with a single album (though an additional album was added in case it was needed), so it was ok to just manually list some of the album data (like its title, artist, and release date) in the html code.
 
 
-```{% highlight javascript %}
+
+{% highlight javascript %}
 <div class="album-view-details column half">
  <h2 class="album-view-title">The Colors</h2>
  <h3 class="album-view-artist">Pablo Picasso</h3>
  <h5 class="album-view-release-info">1909 Spanish Records</h5>
 </div>
-{% endhighlight %}```
+{% endhighlight %}
+
 
 While the current version of the AngularJS version of Bloc Jams still primarily uses one album, I wanted to future-proof the app for a time when more albums might be added.  To do that, I needed to build functionality into my album controller that would allow the album data to be plugged in via Angular and JavaScript. I accomplished this goal as follows.
 
 First, I created a `Fixtures` service that stored all of the album data in variables, then created a `getAlbum()` function that selected one of the albums.
 
-```{% highlight javascript %}
-        Fixtures.getAlbum = function() {
-            return albumPicasso;
-        };
-{% endhighlight %}```
+
+{% highlight javascript %}
+Fixtures.getAlbum = function() {
+  return albumPicasso;
+};
+{% endhighlight %}
+
 
 I then called that service in the Album controller and assigned its value to the controller's scope object.
 
-```{% highlight javascript %}
+
+{% highlight javascript %}
   this.albumData = Fixtures.getAlbum();
-{% endhighlight %}```
+{% endhighlight %}
+
 
 Finally, I updated the album template to access the scope object.
 
-```{% highlight javascript %}
+
+{% highlight javascript %}
+{% raw %}
   <h2 class="album-view-title">{{ album.albumData.title }}</h2>
   <h3 class="album-view-artist">{{ album.albumData.artist }}</h3>
   <h5 class="album-view-release-info">{{ album.albumData.year }} {{album.albumData.label}}</h5>
-{% endhighlight %}```
+{% endraw %}
+{% endhighlight %}
+
 
 ## Lessons Learned
 

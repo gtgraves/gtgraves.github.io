@@ -1,0 +1,11 @@
+---
+layout: post
+title: A Year of Coding
+---
+Whether by pure coincidence or by a design that I was not aware of (I'm pretty sure it's the former), I'm writing this first post almost exactly a year after I began my first day at [Bloc's](http://www.bloc.io) part time web developer program and committed myself to becoming a developer.  It took me a while to finally swallow my fear and start the program (in fact, looking back at my email archive, I requested information about Bloc's program almost 8 months before I began), but nearly one year ago today I started down this path and haven't looked back.
+
+![Welcome to Bloc!](/img/bloc_welcome.png)
+
+The work on this site consists of the results of the past year at Bloc along with other coding skills I've picked up along the way. I don't plan on using this blog to recap everything that has happened in the past year (that would be too much, and I've probably blocked out the worst stuff by now!) but I hope to use the first few posts here to summarize the past year of hard work and what I've gotten out of it, before devoting this blog to my finishing up of the Bloc program and the career search ahead. I plan on discussing the skills I've learned, the frustrations I've experienced while learning those skills, and hopefully some of the more light-hearted moments of my coding efforts.  Given that my efforts, up to this point, have been primarily focused on JavaScript and Ruby on Rails, expect these posts to be focused on those areas, though I may branch out as I learn more. I may also post about life in general and the tech scene in Dallas as well.
+
+I started Bloc, and learning how to code, because I needed something new.  I've spent the past several years as an attorney, focusing on business and trademark litigation.  But while I have enjoyed my time practicing law, embraced the challenges it presented, and appreciated the knowledge I have learned, I missed being able to create new projects and ideas like I did back in college studying theatre and film.  Learning Ruby on Rails and Javascript has brought back that satisfaction of building something from scratch and marveling at how that latest project started from nothing. I hope this blog allows me to share that experience with those who read it.  
