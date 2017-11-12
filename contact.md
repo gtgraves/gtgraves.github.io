@@ -2,16 +2,18 @@
 layout: page
 title: Contact
 permalink: /contact/
-feature-img: "img/color.png"
+
 ---
+Thanks for visiting my portfolio. Feel free to use the form below to contact me or use any of the additional options in the header above.
 
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
-
-<form action="https://getsimpleform.com/messages?form_api_token=_yourtoken_" method="post">
+<form action="https://getsimpleform.com/messages?form_api_token=b888a86dba0cc62dae347e47a3b587f0" method="post">
   <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-  <input type='hidden' name='redirect_to' value='http://bloc.github.io/portfolio-iro/thank-you/' />
-  <input type='text' name='name' placeholder='Your Full Name' />
-  <input type='email' name='email' placeholder='Your E-mail Address' />
-  <textarea name='message' placeholder='Write your message ...'></textarea>
+  <input type='hidden' name='redirect_to' value='http://gtgraves.github.io/thank-you/' /> <br>
+  <input type='text' name='name' placeholder='Your Name' /> <br>
+  <br>
+  <input type='email' name='email' placeholder='Your E-mail' /> <br>
+  <br>
+  <textarea name='message' rows="4" cols="50" placeholder='Your message'></textarea> <br>
+  <br>
   <input type='submit' value='Send Message' />
 </form>
