@@ -1,14 +1,17 @@
 ---
 layout: post
 title: Bloc Jams - Angular Refactor
-feature-img: "img/sample_feature_img.png"
-thumbnail-path: "https://d13yacurqjgara.cloudfront.net/users/3217/screenshots/2030974/bloctalk_1x.png"
+feature-img: "img/blur_bg_3.jpg"
+thumbnail-path: img/angular_splash.png
 short-description: Bloc Jams refactored into a single-page application architecture
 
 ---
 # Bloc Jams refactored into a single-page application architecture
 
 After creating Bloc Jams, I wanted to take the basic principles of that app and convert them to a single-page application, which would make the app have a snappier user interface and feel more like a native desktop application. To make this work, I knew I needed to convert my previous version of the app - which used vanilla JavaScript and jQuery - so that it could use a more dynamic JavaScript framework.  I found my solution in AngularJS.
+
+{:.center}
+![]({{ site.baseurl }}/img/playbar.gif)
 
 ## Background
 
@@ -62,6 +65,8 @@ Finally, I updated the album template to access the scope object.
 {% endraw %}
 {% endhighlight %}
 
+{:.center}
+![]({{ site.baseurl }}/img/angular_album.png)
 
 ## Lessons Learned
 
